@@ -1,0 +1,840 @@
+body {
+    margin: 0;
+}
+
+.main {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.container {
+    width: 80%;
+    padding: 15px 0px;
+    box-sizing: border-box;
+}
+
+.block1 {
+    background-image: url(../Build-Dreams/img/Image.png);
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    height: 600px;
+}
+
+.first-container {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 75%;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    width: 100%;
+    align-items: center;
+}
+
+.left-header, ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+}
+
+.right-header a {
+    text-decoration: none;
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 2.278;
+    text-align: center;
+}
+
+.right-header>ul>li {
+    width: 90px;
+}
+
+.build-dreams {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    margin-top: 12%;
+}
+
+.build-dreams>p {
+    font-size: 32px;
+    font-family: "BrandonGrotesque";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+.build-dreams>h1 {
+    font-size: 66px;
+    font-family: "BrandonGrotesque";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+}
+
+.build-dreams button {
+    font-size: 23px;
+    font-family: "BrandonGrotesque";
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+    line-height: 1.2;
+    background: none;
+    text-align: center;
+    width: 240px;
+    height: 65px;
+    border-radius: 5px;
+    letter-spacing: 1px;
+    border: 2px solid white;
+    cursor: pointer;
+    outline: none;
+    margin-top: 20px;
+}
+
+.block2 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.development_l_r {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    margin: 35px 0px;
+}
+
+.left-development {
+    width: 56%;
+}
+
+.right-development {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right-development>i {
+    font-size: 220px;
+    color: lightgray;
+}
+
+.all-h2 {
+    font-size: 60px;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(65, 62, 62);
+    line-height: 1.25;
+    text-align: left;
+    margin: 0;
+}
+
+.all-h2>.black-text {
+    color: black;
+}
+
+.all-p {
+    font-size: 16px;
+    font-family: serif;
+    color: rgb(119, 119, 119);
+    line-height: 1.333;
+    text-align: left;
+}
+
+.block3 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.right-branding {
+    width: 56%;
+}
+
+.left-branding {
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-branding>i {
+    font-size: 220px;
+    color: lightgray;
+}
+
+.block4 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.skills_l_r {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    width: 100%;
+    margin: 30px 0px;
+}
+
+.skills {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    text-align: left;
+}
+
+.skills p span {
+    font-size: 22px;
+    color: rgb(34, 34, 34);
+    line-height: 1.5;
+    text-align: left;
+}
+
+.skills p {
+    font-size: 18px;
+    font-family: "BrandonGrotesque";
+    color: rgb(119, 119, 119);
+    line-height: 1.3;
+    text-align: left;
+    justify-content: center;
+}
+
+.fa-camera, .fa-male {
+    color: white;
+    font-size: 36px;
+    border-radius: 45px;
+    background-color: black;
+    width: 38px;
+    text-align: center;
+    border: 15px solid transparent;
+    margin-right: 10px;
+}
+
+.icon-left {
+    width: 57%;
+}
+
+.block5 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #fafafa;
+}
+
+.awesome-all {
+    margin: 30px 0px;
+}
+
+.awesome-clients {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.jamie-clients {
+    display: flex;
+     flex-flow: row wrap;
+    align-items: center;
+    text-align: right;
+    justify-content: space-between;
+}
+
+.left-smail img {
+    width: 70%;
+}
+
+.awesome-clients>p {
+    font-size: 16px;
+    font-family: serif;
+    color: rgb(119, 119, 119);
+    line-height: 1.333;
+    text-align: center;
+      margin: 0;
+}
+
+.quote-jamie>span {
+    font-size: 20px;
+    color: rgb(118, 144, 197);
+    line-height: 1.8;
+    text-align: center;
+}
+
+.quote-jamie {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    font-size: 26px;
+    color: rgb(119, 119, 119);
+    line-height: 1.077;
+    text-align: center;
+    background-color: #fff;
+    border: 1px solid #666;
+    width: 100%;
+     height: 135px;
+}
+
+.bart-clients {
+    display: flex;
+    align-items: center;
+    text-align: left;
+    justify-content: space-between;
+}
+
+.right-smail>img {
+    width: 70%;
+}
+
+.block6 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.four-pictures {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+    margin: 25px 0px;
+}
+
+.many-pictures {
+    width: 210px;
+    text-align: center;
+}
+
+.block7 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: black;
+}
+
+.amazing-all {
+    margin: 30px 0px;
+}
+
+.amazing-team {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.amazing-team h2 {
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+.amazing-team p {
+    font-size: 22px;
+    color: rgb(119, 119, 119);
+    line-height: 1.2;
+    text-align: center;
+    margin: 0;
+}
+
+.three-pictures {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    text-align: center;
+    margin: 30px 0px 5px 0px;
+}
+
+.team-pictures {
+    width: 30%;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.team-pictures>img {
+    width: 100%;
+}
+
+.team-pictures p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    margin: 0;
+}
+
+.team-pictures span {
+    font-size: 17px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    line-height: 1.8;
+    font-family: monospace;
+}
+
+.socials-icon a {
+    text-decoration: none;
+    font-size: 19px;
+    color: white;
+    border-radius: 50%;
+    border: 2px solid white;
+    width: 23px;
+    height: 22px;
+    margin: 5px;
+}
+
+.p-amazing {
+    font-size: 19px;
+    color: rgb(235, 235, 235);
+    line-height: 1.4;
+    text-align: center;
+}
+
+.block8 {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    background-color: #7690c5;
+}
+
+.say-hello-l-r {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    width: 100%;
+    margin: 55px 0px 0px 0px;
+}
+
+.say-left {
+    width: 49%;
+}
+
+.say-left h2 {
+    font-family: inherit;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+    margin: 0;
+}
+
+.say-left h2 span {
+    font-family: sans-serif;
+}
+
+.say-left p {
+    font-size: 18px;
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: left;
+}
+
+.say-right {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    align-items: center;
+}
+
+input[type=text] {
+    font-size: 18px;
+    font-family: "BrandonGrotesque";
+    color: rgb(216, 209, 209);
+    line-height: 1.2;
+    text-align: left;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 2px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 50px;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+textarea {
+    font-size: 18px;
+    font-family: "BrandonGrotesque";
+    color: rgb(187, 187, 187);
+    line-height: 1.2;
+    text-align: left;
+    border: 1px solid rgb(204, 204, 204);
+    border-radius: 5px;
+    background-color: rgb(255, 255, 255);
+    width: 400px;
+    height: 214px;
+    padding-left: 16px;
+    box-sizing: border-box;
+}
+
+.contact-l-r {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-left {
+    width: 49%;
+}
+
+.contact-right {
+    width: 49%;
+}
+
+.contact-column {
+    display: flex;
+    flex-flow: row;
+    align-items: center;
+}
+
+.fa-mobile-alt {
+    color: white;
+    margin-right: 9px;
+    font-size: 20px;
+}
+
+.line-blue {
+    background-color: rgb(135, 160, 210);
+    width: 100%;
+    height: 1px;
+    margin-top: 8%;
+}
+
+.footer p {
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    line-height: 1.375;
+    text-align: center;
+}
+
+@media (min-width: 320px) and (max-width: 480px) {
+    header {
+        width: 115%;
+    }
+    .right-header a {
+        font-size: 11px;
+    }
+    .right-header>ul>li {
+        width: 48px;
+    }
+    .build-dreams>p {
+        font-size: 23px;
+    }
+    .build-dreams>h1 {
+        font-size: 48px;
+    }
+    .build-dreams button {
+        font-size: 18px;
+        width: 220px;
+        height: 58px;
+        margin: 11px 0px 28px 0px;
+    }
+    .development_l_r {
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .all-h2 {
+        font-size: 38px;
+    }
+    .left-branding>i {
+        font-size: 190px;
+    }
+    .skills p span {
+        font-size: 23px;
+    }
+    .left-smail img {
+        width: 90%;
+    }
+    .quote-jamie {
+        font-size: 13px;
+        height: 128px;
+    }
+    .quote-jamie>span {
+        font-size: 9px;
+    }
+    .right-smail>img {
+        width: 90%;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 600px) {
+    header {
+        width: 115%;
+    }
+    .right-header>ul>li {
+        width: 67px;
+    }
+    .build-dreams>p {
+        font-size: 25px;
+    }
+    .build-dreams>h1 {
+        font-size: 55px;
+    }
+    .build-dreams button {
+        font-size: 20px;
+        width: 225px;
+        height: 60px;
+        margin: 11px 0px 24px 0px;
+    }
+    .all-h2 {
+        font-size: 38px;
+    }
+    .left-branding>i {
+        font-size: 200px;
+    }
+    .left-smail img {
+        width: 85%;
+    }
+    .quote-jamie {
+        font-size: 14px;
+        height: 127px;
+    }
+    .quote-jamie>span {
+        font-size: 10px;
+    }
+    .right-smail>img {
+        width: 85%;
+    }
+}
+
+@media (min-width: 601px) and (max-width: 705px) {
+    header {
+        width: 118%;
+    }
+    .right-header>ul>li {
+        width: 73px;
+    }
+    .build-dreams>p {
+        font-size: 25px;
+    }
+    .build-dreams>h1 {
+        font-size: 55px;
+    }
+    .build-dreams button {
+        font-size: 20px;
+        width: 225px;
+        height: 60px;
+        margin: 11px 0px 30px 0px;
+    }
+    .left-smail img {
+        width: 85%;
+    }
+    .quote-jamie {
+        font-size: 14px;
+        height: 125px;
+    }
+    .quote-jamie>span {
+        font-size: 10px;
+    }
+    .right-smail>img {
+        width: 85%;
+    }
+    .awesome-clients>p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 706px) and (max-width: 900px) {
+    header {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .right-header>ul>li {
+        width: 80px;
+    }
+    .build-dreams>p {
+        font-size: 27px;
+    }
+    .build-dreams>h1 {
+        font-size: 58px;
+    }
+    .build-dreams button {
+        font-size: 20px;
+        width: 225px;
+        height: 60px;
+        margin: 11px 0px 35px 0px;
+    }
+    .skills_l_r {
+        justify-content: space-between;
+    }
+    .icon-left {
+        width: 44%;
+    }
+    .icon-right {
+        width: 44%;
+    }
+    .skills p {
+        font-size: 16px;
+    }
+    .skills p span {
+        font-size: 17px;
+    }
+    .left-smail img {
+        width: 85%;
+    }
+    .quote-jamie {
+        font-size: 19px;
+        height: 125px;
+    }
+    .quote-jamie>span {
+        font-size: 13px;
+    }
+    .right-smail>img {
+        width: 85%;
+    }
+    .awesome-clients>p {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 901px) and (max-width: 1000px) {
+    header {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+    }
+    .right-header>ul>li {
+        width: 93px;
+    }
+    .build-dreams>p {
+        font-size: 32px;
+    }
+    .build-dreams>h1 {
+        font-size: 60px;
+    }
+    .build-dreams button {
+        font-size: 20px;
+        width: 225px;
+        height: 60px;
+        margin: 11px 0px 40px 0px;
+    }
+    .development_l_r {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .left-development {
+        width: 59%;
+    }
+    .all-h2 {
+        font-size: 40px;
+    }
+    .left-branding>i {
+        font-size: 200px;
+    }
+    .right-branding {
+        width: 40%;
+    }
+    .skills_l_r {
+        justify-content: space-between;
+    }
+    .icon-left {
+        width: 44%;
+    }
+    .icon-right {
+        width: 44%;
+    }
+    .skills p {
+        font-size: 20px;
+    }
+    .skills p span {
+        font-size: 18px;
+    }
+    .left-smail img {
+        width: 80%;
+    }
+    .quote-jamie {
+        font-size: 19px;
+        height: 125px;
+    }
+    .quote-jamie>span {
+        font-size: 16px;
+    }
+    .right-smail>img {
+        width: 80%;
+    }
+    .awesome-clients>p {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1001px) and (max-width: 1300px) {
+    header {
+        display: flex;
+        justify-content: space-between;
+        flex-flow: row wrap;
+        width: 122%;
+    }
+    .right-header>ul>li {
+        width: 93px;
+    }
+    .build-dreams>p {
+        font-size: 32px;
+    }
+    .build-dreams>h1 {
+        font-size: 66px;
+    }
+    .build-dreams button {
+        font-size: 23px;
+        width: 240px;
+        height: 65px;
+        margin: 11px 0px 50px 0px;
+    }
+    .development_l_r {
+        flex-flow: row wrap;
+        justify-content: space-between;
+    }
+    .left-development {
+        width: 59%;
+    }
+    .all-h2 {
+        font-size: 43px;
+    }
+    .left-branding>i {
+        font-size: 220px;
+    }
+    .right-branding {
+        width: 46%;
+    }
+    .skills_l_r {
+        justify-content: space-between;
+    }
+    .icon-left {
+        width: 46%;
+    }
+    .icon-right {
+        width: 46%;
+    }
+    .skills p {
+        font-size: 20px;
+    }
+    .skills p span {
+        font-size: 20px;
+    }
+    .left-smail img {
+        width: 75%;
+    }
+    .quote-jamie {
+        font-size: 18px;
+        height: 130px;
+    }
+    .quote-jamie>span {
+        font-size: 16px;
+    }
+    .right-smail>img {
+        width: 75%;
+    }
+   
+}
